@@ -23,3 +23,13 @@ This outcome suggests that there is no straightforward or inherent rule that can
 ## Dataset
 
 The dataset used in this project is taken from the [LLVIP dataset](https://bupt-ai-cz.github.io/LLVIP/).
+
+## Sample Results
+
+### IR to Visible Image Translation
+
+![IR to Visible](/img1.png)
+
+### Visible to IR Image Translation
+
+![Visible to IR](/img2.png)
