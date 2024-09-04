@@ -20,6 +20,12 @@ Upon evaluating the models' performance and analyzing the output, the results we
 
 This outcome suggests that there is no straightforward or inherent rule that can predict the IR version of an image based solely on its visible spectrum representation, and vice versa. Therefore, the initial hypothesis that visible light features could directly inform or predict infrared characteristics was not supported by the experimental data.
 
+## Model Interpretation and Limitations
+
+We concluded that there is no discernible pattern or rule linking IR and visible images based solely Pix2Pix model producing poorly. Reason for drawning this conclusion is, Pix2Pix an image-to-image translation model, excels when there is a consistent underlying rule or pattern in the image translation process. If such a pattern exists, the model typically begins to produce accurate results within a few epochs, even with a relatively small dataset.
+
+However, this does not imply that IR-visible image translation is unachievable. With a sufficiently large and diverse dataset, successful translation might still be possible. The basis for this would not be an inherent pattern between IR and visible conversions, but rather the model's ability to identify objects and assign colors based on its learned experience from past data.
+
 ## Dataset
 
 The dataset used in this project is taken from the [LLVIP dataset](https://bupt-ai-cz.github.io/LLVIP/).
